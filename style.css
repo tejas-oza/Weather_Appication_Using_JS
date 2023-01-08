@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+input {
+  width: 230px;
+  margin-right: 6px;
+  padding: 12px;
+  border: 2px solid #19191d;
+  border-radius: 5px;
+  outline: none;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+#search-btn {
+  width: 75px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(to bottom right, #35343b, #19191d);
+}
+
+.weather-card{
+  width: 18rem;
+  padding: 12px;
+  border-radius: 5px;
+  color: white;
+  background-color: #6610f2;
+}
+
+.city-name-field {
+  flex-direction: column;
+}
+
+.city-name-field #city-name {
+  font-size: 20px;
+}
+
+.first-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.weather-info {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-list i {
+  margin-right: 12px;
+}
+
+/* Utility classes */
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
